@@ -183,6 +183,7 @@ _commands = [
         flags=[
             dict(args=["--all"], action="store_true", help="uninstall all packages"),
             dict(args=["package_name"], nargs="*", help="package name"),
+            dict(args=["--serial", "-s"], type=str, help="serial number"),
         ],
     ),
     dict(
